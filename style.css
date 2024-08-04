@@ -1,0 +1,129 @@
+html{
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(298deg, #3F8EDBFF 3%, #94B8F5FF 24%, #EDEFB6FF 76%, #F8F8ECFF 99%);
+
+    /* background: linear-gradient(298deg, #4257E3FF 3%, #9C79E9FF 33%, #B585CAFF 58%, #E99DECFF 79%, #F7DDFFFF 99%); */
+}
+
+/* .CalcBtnSymbol{
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 50px;
+} */
+
+.btnRow{
+    /* border: 2PX solid RED; */
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.calcBtnNumber{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: monospace;
+    font-size: x-large;
+    border-radius: 5px;
+    border-color: white;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.calcBtnNumber:active,
+.calcBtnClear:active,
+.CalcBtnDelete:active{
+    background-color: #f3f3f3;
+}
+
+.CalcBtnSymbol{
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #C71585;
+    color: white;
+    border-radius: 6px;
+    border-color: #C71585;
+    font-size:x-large;
+    width: 50px;
+    height: 50px;
+}
+
+.CalcBtnSymbol:active,
+.btnSolve:active{
+    background-color: #a51d73;
+}
+
+.zero{
+    text-align: center;
+    width: 156px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.btnSolve{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #C71585;
+    color: white;
+    border-radius: 6px;
+    border-color: #C71585;
+    font-size:x-large;
+}
+
+.calcBtnClear{
+    width: 105px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    border-color: white;
+    font-size:x-large;
+    font-family: monospace;
+}
+
+.CalcBtnDelete{
+    width: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    border-color: white;
+    font-size:x-large;
+    font-family: monospace;
+}
+
+.screen{
+    background-color: white;
+    width: 203px;
+    height: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: monospace;
+    font-size: x-large;
+    border-radius: 5px;
+    border: 1px solid #c3b3bd;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.container{
+    background-color: rgba(248,248,255, 0.3);
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
